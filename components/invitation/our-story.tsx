@@ -5,12 +5,12 @@ export function OurStory() {
     <section aria-labelledby="story-heading" className="px-6 py-20 md:py-28">
       <div className="mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-2 md:gap-16">
         <Image
-          src="/images/bouquet.png"
-          alt="Watercolor bridal bouquet of blush peonies, roses and eucalyptus tied with an ivory ribbon"
+          src="/images/bouquet-dark.png"
+          alt="Bridal bouquet of burgundy and ivory roses with navy hydrangea and gold leaves"
           width={1024}
           height={1024}
           sizes="(min-width: 768px) 480px, 90vw"
-          className="mx-auto h-auto w-full max-w-sm [mask-image:radial-gradient(closest-side,black_75%,transparent)] md:max-w-none"
+          className="mx-auto h-auto w-full max-w-sm mix-blend-lighten [mask-image:radial-gradient(closest-side,black_70%,transparent)] md:max-w-none"
         />
         <div className="text-center md:text-left">
           <p className="text-xs font-medium uppercase tracking-[0.35em] text-accent">Our Story</p>

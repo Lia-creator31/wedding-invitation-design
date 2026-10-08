@@ -4,20 +4,25 @@ import { FloralDivider } from './floral-divider'
 
 export function Hero() {
   return (
-    <header className="relative overflow-hidden pb-20 md:pb-28">
-      <div className="relative -ml-[30%] w-[160%] overflow-hidden md:ml-0 md:w-full">
-        <Image
-          src="/images/floral-top.png"
-          alt=""
-          width={1376}
-          height={768}
-          priority
-          sizes="160vw"
-          className="h-auto w-full scale-[1.06] [mask-image:linear-gradient(to_bottom,black_65%,transparent_92%)]"
-        />
-      </div>
+    <header className="relative overflow-hidden pb-20 pt-56 md:pb-28 md:pt-40">
+      <Image
+        src="/images/cover-flower-left.png"
+        alt=""
+        width={1024}
+        height={1024}
+        sizes="(min-width: 768px) 34vw, 60vw"
+        className="cover-flower pointer-events-none absolute -left-6 -top-6 h-auto w-[60vw] max-w-[480px] md:w-[34vw]"
+      />
+      <Image
+        src="/images/cover-flower-right.png"
+        alt=""
+        width={1024}
+        height={1024}
+        sizes="(min-width: 768px) 34vw, 60vw"
+        className="cover-flower cover-flower-right pointer-events-none absolute -right-6 -top-6 h-auto w-[60vw] max-w-[480px] md:w-[34vw]"
+      />
 
-      <div className="relative -mt-[44%] px-6 text-center md:-mt-[31%]">
+      <div className="relative px-6 text-center">
         <div className="animate-in fade-in slide-in-from-bottom-4 mx-auto max-w-xl duration-1000">
           <p className="text-xs font-medium uppercase tracking-[0.35em] text-muted-foreground md:text-sm">
             Together with their families

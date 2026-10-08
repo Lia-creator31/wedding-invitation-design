@@ -44,14 +44,14 @@ export function Rsvp() {
         </div>
       </div>
 
-      <div className="relative -ml-[30%] -mt-[22%] w-[160%] md:ml-0 md:-mt-[14%] md:w-full">
+      <div className="relative -ml-[30%] -mt-[12%] w-[160%] md:ml-0 md:-mt-[10%] md:w-full">
         <Image
-          src="/images/floral-bottom.png"
+          src="/images/garland-dark.png"
           alt=""
           width={1376}
           height={768}
           sizes="160vw"
-          className="h-auto w-full [mask-image:linear-gradient(to_top,black_60%,transparent_95%)]"
+          className="h-auto w-full mix-blend-lighten [mask-image:linear-gradient(to_top,black_55%,transparent_90%)]"
         />
       </div>
     </section>
